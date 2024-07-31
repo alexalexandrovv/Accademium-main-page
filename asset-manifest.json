@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Accademium-main-page/static/css/main.fcfe4e92.css",
+    "main.js": "/Accademium-main-page/static/js/main.29b30f2d.js",
+    "static/js/453.8fb5e866.chunk.js": "/Accademium-main-page/static/js/453.8fb5e866.chunk.js",
+    "static/media/survey-photo.jpg": "/Accademium-main-page/static/media/survey-photo.579866a3110ca362fb55.jpg",
+    "static/media/campus2-uni-removebg-preview.png": "/Accademium-main-page/static/media/campus2-uni-removebg-preview.eb6e595bb87577cbf9b6.png",
+    "static/media/rwth-uni-removebg-preview.png": "/Accademium-main-page/static/media/rwth-uni-removebg-preview.dfce66e7a8b7fff1ee2e.png",
+    "static/media/groingan-uni-removebg-preview.png": "/Accademium-main-page/static/media/groingan-uni-removebg-preview.d3dbe8ed2e7977a5a6d6.png",
+    "static/media/hochschule-uni-removebg-preview.png": "/Accademium-main-page/static/media/hochschule-uni-removebg-preview.c2e1ca1cfe7c81efd96c.png",
+    "static/media/CoolveticaRg-Regular.ttf": "/Accademium-main-page/static/media/CoolveticaRg-Regular.8b00c1ffef613c4a9dfa.ttf",
+    "static/media/hanze-uni-removebg-preview.png": "/Accademium-main-page/static/media/hanze-uni-removebg-preview.40132f4be8eddde4a751.png",
+    "static/media/image1.png": "/Accademium-main-page/static/media/image1.b4f5c752249a8e14b3ce.png",
+    "static/media/nhl-stenden-uni-removebg-preview.png": "/Accademium-main-page/static/media/nhl-stenden-uni-removebg-preview.aa5304c7e0a0100afacf.png",
+    "static/media/Screenshot_2024-07-12_134742-removebg-preview.png": "/Accademium-main-page/static/media/Screenshot_2024-07-12_134742-removebg-preview.64b87b495ec6b8c4bef9.png",
+    "static/media/Accademium_Logo_Cropped.png": "/Accademium-main-page/static/media/Accademium_Logo_Cropped.8ba4e2740e2302aed0d8.png",
+    "index.html": "/Accademium-main-page/index.html",
+    "main.fcfe4e92.css.map": "/Accademium-main-page/static/css/main.fcfe4e92.css.map",
+    "main.29b30f2d.js.map": "/Accademium-main-page/static/js/main.29b30f2d.js.map",
+    "453.8fb5e866.chunk.js.map": "/Accademium-main-page/static/js/453.8fb5e866.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcfe4e92.css",
+    "static/js/main.29b30f2d.js"
+  ]
+}
