@@ -1,0 +1,92 @@
+.signup{
+    background-color:rgba(192,214,251,255) ;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    row-gap: 30px;
+}
+.sign-up-button{
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #4c9cfc;
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer; 
+}
+.p8{
+    font-size: 20px;
+    text-align: center;
+}
+.h14{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px){
+    .signup{
+        background-color:rgba(192,214,251,255) ;
+        padding: 0;
+        text-align: center;
+        width: 104.5%;
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 90px;
+    }
+    .h14{
+        font-size: 70px;
+        margin-top: 40px;
+    }
+    .p8{
+        font-size: 60px;
+        text-align: center;
+        margin:0;
+        width: 75%;
+    }
+    .sign-up-button{
+        width: 480px;
+        height: 90px;
+        border-radius: 30px;
+        background-color: #4c9cfc;
+        border:none;
+        font-size: 50px;
+        font-family: 'Font', sans-serif;
+        color: white;
+        cursor: pointer; 
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+    
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    .h14{
+        font-size: 35px;
+        font-weight: bold;
+        height: 100px;
+        margin: 0;
+    }
+    .p8{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+    }
+    .signup{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:rgba(192,214,251,255) ;
+        padding: 0;
+        text-align: center;
+        width: 101.5%;
+    }
+}

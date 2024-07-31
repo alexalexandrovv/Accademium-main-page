@@ -1,0 +1,148 @@
+.companies{
+    background-color:rgba(192,214,251,255) ;
+    margin-top: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.uni-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 4px;
+    row-gap: 160px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-left:80px;
+    
+}
+.uni-photo-1{
+    width:300px;
+    height: auto;
+}
+.uni-photo-2{
+    width:300px;
+    height: auto;
+}
+.uni-photo-3{
+    width:250px;
+    height: auto;
+}
+.uni-photo-4{
+    width:160px;
+    height: auto;
+}
+
+.uni-photo-5{
+    width:280px;
+    height: auto;
+}
+.uni-photo-6{
+    width:250px;
+    height: auto;
+}
+.uni-photo-7{
+    width:300px;
+    height: auto;
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    .companies{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(192,214,251,255) ;
+        margin-top: 90px;
+        padding: 0;
+        align-items: center;
+        width: 101.5%;
+        
+    }
+    h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 36px;
+        padding: 0;
+    }
+    .uni-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 4rem;
+        row-gap: 9rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 60px;
+        padding-left:0px;
+        width: 80%;
+        
+    }
+    
+}
+@media (max-width: 600px){
+    .companies{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(192,214,251,255) ;
+        margin-top: 90px;
+        padding: 0;
+        align-items: center;
+        width: 104.8%;
+        
+    }
+    h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 60px;
+        padding: 0;
+    }
+    .uni-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 6rem;
+        row-gap: 13rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 60px;
+        padding-left:0px;
+        width: 80%;
+        
+    }
+    .uni-photo-1{
+        width:600px;
+        height: auto;
+    }
+    .uni-photo-2{
+        width:600px;
+        height: auto;
+    }
+    .uni-photo-3{
+        width:500px;
+        height: auto;
+    }
+    .uni-photo-4{
+        width:360px;
+        height: auto;
+    }
+    
+    .uni-photo-5{
+        width:500px;
+        height: auto;
+    }
+    .uni-photo-6{
+        width:500px;
+        height: auto;
+    }
+    .uni-photo-7{
+        width:500px;
+        height: auto;
+    }
+}

@@ -1,0 +1,190 @@
+.resources{
+    padding: 55px 140px 2px 140px;
+    align-items: center;
+    
+}
+.h11{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.cards{
+    padding-top: 30px;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.h10{
+    font-weight: bold;
+    font-size: 18px;
+}
+.p11{
+    font-size: 17px;
+    margin-top: 60px;
+    height:130px;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #4c9cfc;
+    border:none;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer; 
+    
+    
+}
+
+.comps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color:rgba(192,214,251,255) ;
+    width: 330px;
+    height: 370px;
+    margin-bottom: 10px; 
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.comps .button{
+    align-self: center;
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    .resources{
+        display: flex;
+        flex-direction: column;
+        padding: 55px 0px 2px 0px;
+        align-items: center;
+        width:101%;
+    }
+    .cards{
+        padding-top: 30px;
+        padding-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+        border-bottom: 1px solid black;
+        width: 34rem;
+        margin: 0 auto;
+    }
+    .comps{
+        padding-top: 30px;
+        background-color:rgba(192,214,251,255) ;
+        width: 24rem;
+        height: 28rem;
+        margin-bottom: 10px; 
+        margin-left: 0px;
+        border-radius: 20px;
+    }
+    .button{
+        margin-top: 30px;
+        width: 17rem;
+        height: 4rem;
+        border-radius: 20px;
+        background-color: #4c9cfc;
+        border:none;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer; 
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .h10{
+        font-weight: bold;
+        font-size: 25px;
+        
+    }
+    .p11{
+        margin-top: 60px;
+        font-size: 20px;
+      
+    }
+    .h11{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 0px;
+        margin-bottom: 25px;
+        width: 80%;
+    }
+}
+@media (max-width: 600px){
+    .resources{
+        display: flex;
+        flex-direction: column;
+        padding: 55px 0px 2px 0px;
+        align-items: center;
+        width:104%;
+    }
+    .cards{
+        padding-top: 30px;
+        padding-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+        border-bottom: 1px solid black;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .comps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+        background-color:rgba(192,214,251,255) ;
+        width: 50rem;
+        height: 62rem;
+        margin-bottom: 10px; 
+        margin-left: 0px;
+        border-radius: 30px;
+    }
+    .button{
+        margin-top: 30px;
+        width: 32rem;
+        height: 8rem;
+        border-radius: 20px;
+        background-color: #4c9cfc;
+        border:none;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer; 
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .h10{
+        font-weight: bold;
+        font-size: 55px;
+        
+    }
+    .p11{
+        margin-top: 60px;
+        font-size: 50px;
+        height:fit-content;
+      
+    }
+    .h11{
+        text-align: center;
+        font-size: 70px;
+        font-weight: bold;
+        padding-top: 0px;
+        margin-bottom: 25px;
+        width: 80%;
+    }
+}
