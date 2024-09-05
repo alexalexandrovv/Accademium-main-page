@@ -25,7 +25,6 @@ const App = () =>{
     <Companies />
     <div className='Application'>
       <Application />
-      </div>
       <div className='Stories'>
         <Stories />
         <div className='Resources'>
@@ -40,6 +39,7 @@ const App = () =>{
           </div>
         </div>
       </div>
+    </div>
       </div>
       </div>
       </div>
